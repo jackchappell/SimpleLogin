@@ -51,7 +51,7 @@ $user = $query->fetchObject();
 		</div>
 	</div>
 
-	<script src="vendor/assets/js/jquery.js"></script>
-	<script src="vendor/assets/js/bootstrap.js"></script>
+	<script src="assets/vendor/js/jquery.js"></script>
+	<script src="assets/vendor/js/bootstrap.js"></script>
 </body>
 </html>
