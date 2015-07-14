@@ -5,8 +5,7 @@ $errors = [];
 session_start();
 
 if(isset($_SESSION['username'])) {
-	header("Location: index.php");
-	die;
+	die(header("Location: index"));
 }
 
 function isEmpty()
