@@ -3,7 +3,7 @@
 session_start();
 
 if(isset($_SESSION['username'])) {
-	die(header("Location: index.php"));
+	die(header("Location: index"));
 }
 
 $errors = [];
